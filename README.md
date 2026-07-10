@@ -1,5 +1,10 @@
-# Awesome-HHH-Framework
-## The Helpfulness-Harmlessness-Honesty (HHH) Framework: History, Progression, Variants, & Alignment
+# 🚀 Awesome-HHH-Framework
+
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome HHH Framework Banner" width="100%">
+</p>
+
+## 🌟 The Helpfulness-Harmlessness-Honesty (HHH) Framework: History, Progression, Variants, & Alignment
 
 The **Helpfulness-Harmlessness-Honesty (HHH) Framework**—alternatively designated as the **3Es of Alignment** (Utility, Safety, and Veracity) or the **Constitutional Triad**—is the foundational post-training value-alignment paradigm used to govern, steer, and benchmark the behavioral boundaries of Large Language Models (LLMs) and advanced AI systems [INDEX: 11, 25]. First formalized by Askell et al. at Anthropic in 2021 ("A General Language Assistant as a Laboratory for Alignment"), the HHH framework resolves the core operational objective of the **Alignment Problem**. 
 
@@ -7,7 +12,7 @@ Raw foundational networks optimized purely on web-scale token prediction mimic i
 
 ---
 
-## 1. The Macro Chronological Evolution
+## 🕰️ 1. The Macro Chronological Evolution
 
 The implementation of behavioral alignment criteria has transitioned from unstructured adversarial fine-tuning to human pairwise preference checks, automated constitutional feedback loops, and native test-time verification enclaves.
 
@@ -30,7 +35,7 @@ flowchart LR
 
 ---
 
-## 2. Core Components of the Triad Matrix
+## 🧩 2. Core Components of the Triad Matrix
 
 The HHH framework functions as a multi-objective optimization task, balancing three inherently conflicting behavioral vectors [INDEX: 11, 25].
 
@@ -55,7 +60,7 @@ flowchart TB
 
 ---
 
-## 3. The Core Objective & Optimization Variants
+## 🎯 3. The Core Objective & Optimization Variants
 
 The HHH framework is implemented across distinct mathematical loss formulations to balance the fundamental tensions between safety and helpfulness [INDEX: 11, 25].
 
@@ -70,7 +75,7 @@ The HHH framework is implemented across distinct mathematical loss formulations 
 
 ---
 
-## 4. Production Engineering Challenges & Hardening Mitigations
+## 🛠️ 4. Production Engineering Challenges & Hardening Mitigations
 
 Enforcing multi-objective HHH constraints across high-volume commercial cloud infrastructures introduces severe alignment taxes and behavioral drift boundaries [INDEX: 11, 22].
 
@@ -81,7 +86,7 @@ Enforcing multi-objective HHH constraints across high-volume commercial cloud in
 
 ---
 
-## 5. Frontier Real-World AI Infrastructure Applications
+## 🌐 5. Frontier Real-World AI Infrastructure Applications
 
 | Application | Description | Year | Paper Link |
 |---|---|---|---|
@@ -91,7 +96,7 @@ Enforcing multi-objective HHH constraints across high-volume commercial cloud in
 
 ---
 
-## References
+## 📚 References
 1. Askell, A., et al. (2021). A general language assistant as a laboratory for alignment: The HHH foundational framework matrix. *Anthropic Research Monograph Whitepaper* [INDEX: 11, 25].
 2. Ouyang, L., et al. (2022). Training language models to follow instructions with human feedback. *Advances in Neural Information Processing Systems (NeurIPS)*, 35 [INDEX: 11].
 3. Bai, Y., et al. (2022). Constitutional AI: Harmlessness from AI feedback. *arXiv preprint arXiv:2212.08073* [INDEX: 25].
