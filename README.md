@@ -14,7 +14,10 @@ The implementation of behavioral alignment criteria has transitioned from unstru
 
 
 ```mermaid
-[Unaligned Perceptual Token Pools] ───> [Human Pairwise Preference Checks] ───> [Constitutional RLAIF Loops] ───> [Unified Verifiable Hard-Locks](Unconstrained Structural Hallucinate)      ( Fragile, Biased Sycophancy Caps )          ( Automated Principle-Guided Feedback )       ( Compiler-Locked Sandbox Realities )
+flowchart LR
+    A["Unaligned Perceptual Token Pools<br>(Unconstrained Structural Hallucinate)"] --> B["Human Pairwise Preference Checks<br>(Fragile, Biased Sycophancy Caps)"]
+    B --> C["Constitutional RLAIF Loops<br>(Automated Principle-Guided Feedback)"]
+    C --> D["Unified Verifiable Hard-Locks<br>(Compiler-Locked Sandbox Realities)"]
 ```
 
 
@@ -36,7 +39,16 @@ The implementation of behavioral alignment criteria has transitioned from unstru
 The HHH framework functions as a multi-objective optimization task, balancing three inherently conflicting behavioral vectors [INDEX: 11, 25].
 
 ```mermaid
-The HHH Alignment Trade-Off Matrix[ HELPfulness ](Maximize Utility)/   /     /       [ HARMlessness ] ─── [ HONEsty ](Minimize Malice)    (Calibrate Truth)
+flowchart TB
+    subgraph "The HHH Alignment Trade-Off Matrix"
+    Help["HELPfulness<br>(Maximize Utility)"]
+    Harm["HARMlessness<br>(Minimize Malice)"]
+    Honest["HONEsty<br>(Calibrate Truth)"]
+    
+    Help --- Harm
+    Help --- Honest
+    Harm --- Honest
+    end
 ```
 
 - ### A. Helpfulness (Maximizing Task Utility)
